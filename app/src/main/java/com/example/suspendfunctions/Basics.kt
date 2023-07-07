@@ -3,11 +3,11 @@ package com.example.suspendfunctions
 import kotlinx.coroutines.delay
 
 suspend fun DoSomethingOnce() : String{
-    delay(1000L)
+    delay(3000L)
     return "This is a long running task"
 }
 
 suspend fun DoSomethingTwice() : String{
-    delay(4000L)
+    delay(6000L)
     return "This is a long running task too"
 }
